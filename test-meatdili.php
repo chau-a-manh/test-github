@@ -13,7 +13,9 @@
     echo "Gà gọi là chanh";
     echo "Gà gọi là chanh";
 
-
+    function test_meatdili() {
+        return "Gà ngói lá chanh";
+    }
 ?>
 // code web gà ngói lá chanh
 
