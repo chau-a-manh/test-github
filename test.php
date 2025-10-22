@@ -45,3 +45,7 @@
     </div>
   </div>
 </div>
+
+
+echo "This is a test file.";<?php
+// test.phpSS
