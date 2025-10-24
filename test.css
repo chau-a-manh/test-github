@@ -1,0 +1,55 @@
+.header {
+  background-image: url('/upload/iblock/a74/a7463f6b22e81fb714a8e8b404822f1f.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: url('/bitrix/templates/Meatdeli/img/gnlc/header-wave.svg') no-repeat center bottom;
+  background-size: cover;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
+
+.header__logo-img {
+  max-width: 160px;
+}
+
+.header__nav .navbar-nav {
+  gap: 2rem;
+}
+
+.header__link {
+  color: #2c2c2c;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.header__link:hover,
+.header__link.active {
+  color: #7AB142; /* màu xanh La Chanh */
+}
+
+.header__toggler,
+.header__close {
+  background: transparent;
+  border: none;
+}
+
+.header__slider {
+  margin-top: 2rem;
+}
